@@ -17,7 +17,7 @@ The goal of this project is twofold:
   
   
 
-To achieve this, a BERT (CamemBERT) model is firstly pre-trained on 200K job descriptions for masked language modeling, and then fine-tuned on 1,2K hand labeled job descriptions for token classification. Each token receive 0 if it is not related to a skill, and 1 otherwise.  
+To achieve this, a BERT (CamemBERT) model is firstly pre-trained on 200K job descriptions for masked language modeling, and then fine-tuned on 1,2K hand labeled job descriptions for token classification. Each token receives 0 if it is not related to a skill, and 1 otherwise.  
 
 The main tools used are the torch and transformers libraries, with Trainers implemented from sratch to practice.
 
